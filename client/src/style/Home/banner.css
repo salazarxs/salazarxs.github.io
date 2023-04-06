@@ -1,0 +1,26 @@
+.banner {
+  position: relative;
+  text-align: center;
+  font-weight: bolder;
+}
+.banner img {
+  display: block;
+  margin: 0 auto;
+  width: 80vw;
+  height: 60vh;
+}
+.banner button {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  font-size: 23px;
+
+  background-color: #013d29;
+  color: white;
+  border: none;
+  border-radius: 2vw;
+  height: 8vh;
+  width: 10vw;
+}

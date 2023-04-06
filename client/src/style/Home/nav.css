@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 2vh;
+}
+/*.img-ted {
+  width: 7vw;
+  padding: 1vw 0 1vw 0;
+}*/
+
+h2 {
+  font-size: x-large;
+}
+#search {
+  border: none;
+  background-color: #f6f6f6;
+  border-radius: 2vw;
+  height: 4vh;
+  width: 20vw;
+  padding-left: 2vw;
+}
+
+#search:focus {
+  outline: none;
+}
+select {
+  border: none;
+  background-color: #fff;
+}

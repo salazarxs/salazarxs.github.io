@@ -1,0 +1,28 @@
+.info {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 3vh;
+  align-items: center;
+  background: #013d29;
+  color: white;
+  font-family: "Inconsolata", monospace;
+}
+.numero {
+  margin-left: 2vw;
+}
+.localizacion {
+  margin-right: 2vw;
+}
+
+.localizacion select {
+  background-color: #013d29;
+  border: none;
+  color: white;
+  margin: 1vw;
+  height: 100%;
+}
+.localizacion:focus {
+  outline: none;
+}
